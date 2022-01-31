@@ -1,7 +1,8 @@
+// 1st exercise
 console.log("سلام دنیا");
 console.log("hello world")
 
-
+// 2nd exercise
 'use strict';
 
 let numberX;
@@ -50,3 +51,31 @@ console.log(animales[1]);
 let mysentence="Programming is so interesting!";
 console.log(mysentence.length);
 
+
+let students=("nosha", "masha");    
+let x=3;
+let y=30;
+let Numbers=(x ,y);
+console.log(students);
+console.log(Numbers);
+if (students===Numbers){
+ console.log("sametype");
+}
+else{console.log("not the same")};
+
+
+let v=7;
+let f=v % 3;
+console.log(f);
+
+
+
+let nima=["7y", "blu", "tall", "fat"];
+let sia=["9th", "red", "short", "old", "bad", "don", "fac"];
+console.log(nima.length);
+console.log(sia.length);
+if(nima.length===sia.length){
+    console.log("they are the same!");
+    
+}
+else{console.log("two different sizes")}
